@@ -1,0 +1,24 @@
+Zapamti:
+
+File file = ...
+File[] files = file.listFiles();  
+file.isFile() 
+file.isDirectory()    ISTO KAO    Files.isDirectory(file)
+file.getPath()   VRACA String (.endsWith .startsWith .contains)      file.toPath()  VRACA Path
+??!! skontaj kako se unose i na koje sve nacine mogu da budu putanje ??!!
+
+KOPIRANJE:
+Files.copy()
+
+KREIRANJE PATH od Stringa:   Path destDir = Paths.get(args[1]);
+KREIRANJE PATH od File: 	 file.toPath()				=> obrnuto je:	 file = path.toFile()
+
+KREIRANJE File od String:	File file = new File(args[0]);
+KREIRANJE File od Path:		File file = path.toFile();
+
+KREIRANJE stringa od Path:  .toString()
+KREIRANJE stringa od File:  file.getPath()
+
+mkdir() i mkdirs()  	prave direktorije
+
+Paths.of
