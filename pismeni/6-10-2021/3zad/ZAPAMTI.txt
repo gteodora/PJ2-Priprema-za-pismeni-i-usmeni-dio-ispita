@@ -1,0 +1,18 @@
+import java.time.*; //LocalDate
+
+Random rand = new Random();
+LocalDate.of(2026, rand.nextInt(12)+1, rand.nextInt(28)+1)
+
+-------
+Duzina enuma iznosi			
+
+Kategorija.values().length
+
+Pristup enumu
+
+Kategorija kat = Kategorija.values()[i];
+
+
+=>enum se prebaci u niz preko poziva .values()
+-------
+

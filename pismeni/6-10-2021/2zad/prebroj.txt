@@ -1,0 +1,7 @@
+java javac java
+javac
+test proba
+Teodora
+java
+Ovo je, samo, primjer recenice zbog interpukcijskih znakova.
+Ucim javu, volim javu. Java
